@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+    <Button
+            android:id="@+id/defaultToast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="defaultToast"
+            android:text="默认Toast"/>
+    <Button
+            android:id="@+id/bt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="changeBackGroundColor"
+            android:text="改变字体 背景色Toast"
+    />
+
+    <Button
+            android:id="@+id/bt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="DIYToast"
+            android:text="改变字体 背景Toast"
+    />
+
+    <Button
+            android:id="@+id/bt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ToastWithPic"
+            android:text="添加图片Toast"
+    />
+
+    <Button
+            android:id="@+id/bt4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="DIYLayout"
+            android:text="自定义布局Toast"
+    />
+
+</LinearLayout>
